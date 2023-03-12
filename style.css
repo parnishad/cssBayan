@@ -9,6 +9,7 @@ body {
  max-width: 50em;
  margin: 0 auto;
  width: 75%;
+ position: relative;
 }
 .bayan-section {
   padding: 1.5em 0.5em ;
@@ -80,7 +81,7 @@ input:checked + label .bayan-section-t {
   .close {
     opacity: 0;
   }
- .bayan-section:hover .meme {
+ .bayan-section:hover .mem {
   max-height: 25em;
   
  }
