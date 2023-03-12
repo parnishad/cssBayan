@@ -20,3 +20,44 @@ input[type=radio] {
 input:checked + label .close {
   transform: rotate(40 deg);
 }
+.bayan-section-t {
+  font-size: 1.6em;
+  color:rgb(56, 1, 1);
+  margin: 1% 0;
+}
+input:checked + label .bayan-section-t{
+  color: rgb(31, 0, 0)
+}
+.bayan-section-m {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mem {
+  display: block;
+  max-width: 25em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.9s;
+  transition-duration: 0.7s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.7;
+}
+ .close {
+  opacity: 1;
+  height: 1.5em;
+  width: 1.5em;
+  transition: heiht 0.8s ease-in-out;
+  transition-duration:heiht 0.8s ease-in-out;
+  -webkit-transition: heiht 0.8s ease-in-out;
+  -o-transition: heiht 0.8s ease-in-out;
+ }
+ input:checked + label .mem {
+  max-height: 35em;
+ }
+ .bayan-section {
+  transition: 0.5;
+ }
