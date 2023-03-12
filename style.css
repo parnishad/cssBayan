@@ -5,7 +5,18 @@ body {
   background-color: rgb(219, 215, 215);
 }
 .container { 
- max-width: 45em;
+ max-width: 50em;
  margin: 0 auto;
- width: 77%;
+ width: 75%;
+}
+.bayan-section {
+  padding: 1.5em 0.5em rgb(219, 215, 215);
+  border-top: 0.20em solid ;
+  cursor: pointer;
+}
+input[type=radio] {
+  display: none;
+}
+input:checked + label .close {
+  transform: rotate(40 deg);
 }
