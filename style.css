@@ -1,0 +1,11 @@
+html {
+  font-size: 100%;
+}
+body {
+  background-color: rgb(219, 215, 215);
+}
+.container { 
+ max-width: 45em;
+ margin: 0 auto;
+ width: 77%;
+}
